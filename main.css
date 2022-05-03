@@ -7,11 +7,15 @@
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  flex-direction: row-reverse;
+  /* flex-direction: row-reverse; */
 }
 
-.display img {
+.display .singleDisplay {
   width: 20%;
   margin-bottom: 10px;
   padding: 0 10px;
+}
+
+.display .singleDisplay img {
+  width: 100%;
 }
