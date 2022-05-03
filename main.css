@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .display {
   display: flex;
   justify-content: space-between;
@@ -18,4 +22,21 @@
 
 .display .singleDisplay img {
   width: 100%;
+}
+
+.setText {
+  display: flex;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.second p {
+  margin: 0;
 }
